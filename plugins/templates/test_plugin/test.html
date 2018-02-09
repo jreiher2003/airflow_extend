@@ -1,0 +1,23 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+	<h2>Schedule a Note Here</h2>
+  	<form class="" action="" method="post">
+        
+    	    <input class="form-control input-lg" type="text" name="zeppelin_url" placeholder="zeppelin url here">
+        
+	<h3>Scheduling</h3>
+	<div class="checkbox">
+  		<label><input type="radio" value="">&nbsp;Time Based</label>
+	</div>
+	<div class="checkbox">
+  		<label><input type="radio" value="">&nbsp;Event Based</label>
+	</div>
+    	<input class="btn btn-default" type="submit" value="Schedule Note">
+	</form>
+	</div>
+    </div>
+</div>
+{% endblock %}
